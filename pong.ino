@@ -1,6 +1,7 @@
 /*
   A simple Pong game.
-  https://github.com/eholk/Arduino-Pong/blob/master/pong.ino
+  Based on Arduino Pong by eholk
+  https://github.com/eholk/Arduino-Pong
 */
 
 #include <SPI.h>

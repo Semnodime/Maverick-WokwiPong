@@ -195,7 +195,7 @@ void loop()
     {
         if (game_over)
         {
-            char* text = win ? "YOU WIN!!" : "YOU LOSE!";
+            const char* text = win ? "YOU WIN!!" : "YOU LOSE!";
             display.clearDisplay();
             display.setCursor(40, 28);
             display.print(text);
